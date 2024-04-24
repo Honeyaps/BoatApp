@@ -1,0 +1,57 @@
+#new{
+    background-image: url("D:\React JS\6th_app\public\Social responsibility\main1.webp");
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h2{font-size: 50px;
+    line-height: 75px;}
+
+.headings{font-size: 15px;
+          color: rgb(186, 145, 31);}
+
+.socialpic{width: 600px;
+           height: 500px;} 
+
+.p{font-size: 18px;} 
+
+.col1{align-self: center;}
+
+.steps{padding:20px 20px;
+       border-radius: 15px;
+       background-color: rgb(239, 255, 255);}  
+ 
+.colletion_headings{font-weight: 800;
+                    font-size: 16px;}    
+
+.ewaste{height: 500px;
+        width: 500px;}
+
+.stepimg{height: 300px;
+width: 600px;}    
+
+b{font-size: 50px;}
+
+@media screen and (max-width: 600px){
+    
+    .p{font-size: 12px;}
+
+    .h1{font-size: 20px;}
+
+    .h2{font-size: 30px;}
+
+    .socialpic,
+    .ewaste{width: 370px;
+        height: 370px;}
+
+    .stepimg{width: 320px;
+             height: 220px;}    
+}
+
+
+    
+           
+          

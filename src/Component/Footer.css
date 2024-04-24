@@ -1,0 +1,76 @@
+*{margin: 0%;
+padding: 0%;}
+
+.footer{background-color: rgb(230, 252, 255);
+padding-left: 100px;}
+
+/* .footer_row{display: flex;
+flex-direction: column;} */
+
+.boatlogo_pic{height: 150px;
+              width: 170px;
+        margin-top: -10px;}
+
+.subscribe_email{font-weight: bold;}  
+
+.email_bar{width: 210px;
+height: 38px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border: rgb(131, 131, 131) solid 1px;
+padding-left: 5px;
+border-right-color: white;}
+
+.email_btn{background-color: white;
+padding: 0px 10px 4px 10px;
+font-size: 22px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border-left-color: white;
+border: rgb(164, 164, 164) solid 1px;
+color: rgb(147, 147, 147);
+}
+
+.footer_col h4{margin-left: -18px;}
+
+.footer_row2{text-align: center;
+font-size: 13px;
+color: rgb(130, 130, 130);}
+
+
+@media screen and (max-width: 600px) {
+
+        .footer{padding-left: 10px;}
+
+        .boatlogo_pic{height: 100px;
+                width: 85px;
+          margin-top: 0px;}
+
+        .subscribe_email{font-size: 6px;}   
+
+        .email_bar{width: 80px;
+                height: 18px;
+                border-radius: 3px;
+                border: solid 0.5px;
+                }
+
+        .email_btn{background-color: transparent;
+                padding: 0px 7px 10px 0px;
+                font-size: 11px;
+                border-style: none;
+                
+                color: rgb(147, 147, 147);
+                }  
+                
+        .email_bar:placeholder-shown{font-size: 6px;} 
+        
+        .footer_list{font-size: 10px;}
+
+        .footer_headings{font-size: 12px;}
+
+        .footer_row2{
+                font-size: 6px;
+                }
+
+       
+}
